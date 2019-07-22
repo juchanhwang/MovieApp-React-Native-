@@ -3,8 +3,10 @@ import TabNavigation from "./TabNavigation";
 import DetailScreen from "../screens/Detail";
 
 const MainNavigation = createStackNavigator({
-  Tabs: { screen: TabNavigation, navigationOptions: { title: "Home" } },
-  DetailScreen
-});
+  Tabs: { screen: TabNavigation, navigationOptions: { title: "title" } },
+  Detail: DetailScreen
+},
+  {}
+);
 
 export default createAppContainer(MainNavigation);
