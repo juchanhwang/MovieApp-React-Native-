@@ -16,7 +16,7 @@ export const createStack = (screen, title) =>
   createStackNavigator({
     Screen: {
       screen,
-      navigationOptions: { 
+      navigationOptions: {
         title,
         ...headerStlyes
       }
